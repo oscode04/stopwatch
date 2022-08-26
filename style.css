@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&family=Nunito:wght@600&family=Rajdhani:wght@400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  background-color: #04001a;
+}
+
+.title h1 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 80px;
+  color: #00daf7;
+  /* text-transform: uppercase; */
+  letter-spacing: 0.1em;
+
+  /* text-shadow: 0 0 10px #00daf7, 0 0 15px #00daf7; */
+}
+
+/* .title h1:after {
+  filter: blur(10px);
+} */
+
+.container .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+  width: 450px;
+  height: 210px;
+  border-radius: 10px;
+  /* background-color: #fff; */
+  border: 3px solid #fa163f;
+}
+
+.container .card .number {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  font-size: 80px;
+  color: #fa163f;
+}
+
+.container .card .btn {
+  font-family: "Barlow", sans-serif;
+  margin-top: 35px;
+}
+
+.container .card .btn .start,
+.container .card .btn .pause,
+.container .card .btn .reset {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  border: 1px solid #fa163f;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer !important;
+}
+
+.container .card .btn .start:hover,
+.container .card .btn .pause:hover,
+.container .card .btn .reset:hover {
+  background-color: #fa163f;
+  color: white;
+  /* border: 1px solid #fa163f; */
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer !important;
+}
+
+.container .card .btn .pause {
+  margin: 0 20px;
+}
